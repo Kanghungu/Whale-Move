@@ -53,6 +53,11 @@ body {
     }
   }
 
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+
   .glow-green {
     box-shadow: 0 0 12px rgba(16, 185, 129, 0.15);
   }
